@@ -1,0 +1,38 @@
+# .eslintignore
+
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略编译输出的目录
+dist/
+build/
+
+# 忽略 IDE 或编辑器的配置文件
+.vscode/
+.idea/
+
+# 忽略日志文件
+*.log
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略构建过程中生成的临时文件
+*.tmp
+*.temp
+
+# 忽略测试覆盖率报告
+coverage/
+
+# 忽略文档生成目录
+docs/
+
+# 忽略打包后的文件
+*.zip
+*.tar.gz
+
+# 忽略特定的配置文件
+.env
+.env.local
+.env.*.local

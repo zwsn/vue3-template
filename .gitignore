@@ -1,0 +1,75 @@
+# .gitignore
+# 忽略所有 node_modules 目录
+node_modules/
+
+# 忽略所有编译后的文件
+dist/
+build/
+*.js
+*.js.map
+
+# 忽略日志文件
+logs/
+*.log
+
+# 忽略编辑器的配置文件
+.vscode/
+
+# 忽略操作系统生成的文件 #
+.DS_Store
+Thumbs.db
+
+# 忽略 yarn 的缓存
+.yarn/
+yarn.lock
+
+# 忽略 IDE 的配置文件
+.idea/
+*.iml
+
+# 忽略 WebStorm 的配置文件
+*.iml
+*.iws
+
+# 忽略 npm 相关的配置文件
+.npmignore
+
+# 忽略 package-lock.json，如果项目使用 yarn，则忽略 yarn.lock
+package-lock.json
+
+# 忽略 IDE 的调试器配置文件
+.debugger/
+
+# 忽略运行时的临时文件
+tmp/
+temp/
+
+# 忽略配置文件
+.env
+.env.local
+.env.*.local
+
+# 忽略客户端的配置文件
+config/local.env
+
+# 忽略编译过程中生成的文件
+*.log
+*.log.*.json
+
+# 忽略客户端的 IDE 插件文件
+client/.eslintrc.js
+client/.prettierrc.js
+client/.storybook/
+
+# 忽略客户端的依赖锁定文件
+client/yarn.lock
+client/package-lock.json
+
+# 忽略客户端的编译输出
+client/dist/
+client/build/
+client/*.js
+client/*.js.map
+
+# 忽略客户端的测试配置文件
+client/tests/*.config.js
